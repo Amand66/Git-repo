@@ -1,2 +1,2 @@
 # Git-repo
-This is the repository where we stored our practice datadata 
+This is the repository where we store our practice data files.
