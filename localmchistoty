@@ -1,0 +1,1000 @@
+   53  cd ..
+   54  cd practice5
+   55  cd practice1/practice2/practice3/practice4/practice5/
+   56  cd ..
+   57  ls
+   58  rm -rf practice5/
+   59  cd ..
+   60  ls
+   61  rm -rf practice4/
+   62  ls
+   63  mkdir practice4
+   64  ls
+   65  rm -r practice4/
+   66  ls
+   67  mkdir practice4
+   68  ls
+   69  rm -rf practice4/
+   70  ls
+   71  echo hello > file
+   72  ls
+   73  cat file
+   74  echo file
+   75  rm file
+   76  ls
+   77  echo file
+   78  ls
+   79  echo file1
+   80  ls
+   81  cat file
+   82  clear
+   83  ls
+   84  touce file{1,2,3,4,5}
+   85  ls
+   86  touch file{1,2,3,4,5}
+   87  ls
+   88  ls -la
+   89  chmod  777 file1
+   90  ls
+   91  ls -la file1
+   92  rm file1
+   93  ls
+   94  rm i file1
+   95  rm -f file1
+   96  ls
+   97  touch file1
+   98  ls
+   99  clear
+  100  ls
+  101  echo how are you? > file1
+  102  ls
+  103  cat file1
+  104  echo Im calling you since morning,But you didnt replay me yet. >> file1
+  105  cat file1
+  106  cp file1 dir1| mkdir1
+  107  ls
+  108  cp file1 dir1
+  109  ls
+  110  cat dir1
+  111  rm dir1
+  112  rm -r dir1
+  113  rm -rf dir1
+  114  ls
+  115  cat file1
+  116  ls
+  117  clear
+  118  lmas
+  119  ls
+  120  clear
+  121  alias clear=c
+  122  ls
+  123  c
+  124  ls
+  125  clear
+  126  c
+  127  clear
+  128  ls
+  129  clear
+  130  ls
+  131  clear
+  132  history
+  133  clear
+  134  ls
+  135  clear
+  136  ls
+  137  cd practice
+  138  ls
+  139  tree
+  140  cd practice1/practice2/practice3/dir2/dir1/
+  141  ls
+  142  ls -la file1
+  143  cat file1
+  144  clear
+  145  ls
+  146  ls -la
+  147  cat .
+  148  cd .
+  149  cd ..
+  150  ls
+  151  clear
+  152  cd
+  153  ls
+  154  clear
+  155  ls
+  156  cd practice
+  157  ls
+  158  tree
+  159  cd practice1/practice2/practice3/dir2/dir1/
+  160  ls
+  161  ls -la file1
+  162  cat file1
+  163  clear
+  164  ls
+  165  ls -la
+  166  cat .
+  167  cd .
+  168  cd ..
+  169  ls
+  170  clear
+  171  cd
+  172  ls
+  173  clear
+  174  ls
+  175  clear
+  176  ifconfig
+  177  curl 192.168.247.166
+  178  systemctl status nginx
+  179  systemctl status httpd
+  180  systemctl start httpd
+  181  systemctl stop nginx
+  182  systemctl start httpd
+  183  systemctl status httpd
+  184  curl 192.168.247.166
+  185  ls
+  186  clear
+  187  ls
+  188  ls
+  189  cd practice/
+  190  ls
+  191  cp -v file1 file12
+  192  ls
+  193  cp -vd dir1/ dir12
+  194  ls
+  195  cp -d dir1 dir12
+  196  cp -df dir1 dir12
+  197  cp -dfr dir1 dir12
+  198  ls
+  199  cp -r dir2 dir23
+  200  ls
+  201  clear
+  202  su user1
+  203  ls
+  204  cd /var/spool/mail/root
+  205  cat /var/spool/mail/root
+  206  clear
+  207  ls
+  208  clear
+  209  ls
+  210  cat /var/spool/mail/root
+  211  mail -u root
+  212  pwd
+  213  ls
+  214  touch dir1
+  215  ls
+  216  cd practice1/practice2/practice3/
+  217  ls
+  218  touch dir1
+  219  ls
+  220  ls -la dir1
+  221  ls -la dir1/
+  222  ls
+  223  cp -i dir1 dir2
+  224  ls
+  225  touch dir2
+  226  ls
+  227  ls -la
+  228  clear
+  229  ls
+  230  ls -la
+  231  ls
+  232  cd dir2
+  233  ls
+  234  cd dir1/
+  235  ls
+  236  clear
+  237  ls
+  238  cd 
+  239  ls
+  240  find . -name file1
+  241  locate file1
+  242  tree
+  243  ls
+  244  clear
+  245  ls
+  246  in 
+  247  clear
+  248  ln -s /practice/practice1/practice2
+  249  ls
+  250  p
+  251  clear
+  252  ls
+  253  ls -la
+  254  rm -rf practice2
+  255  ls
+  256  ln -s /practice/practice1/practice2
+  257  ls
+  258  cd practice2
+  259  clear
+  260  ls
+  261  rm -rf practice2
+  262  ls
+  263  clear
+  264  ls -la
+  265  clear
+  266  ls
+  267  cd practice/
+  268  l
+  269  ls
+  270  cd clear
+  271  clear
+  272  ls
+  273  cd practice1/
+  274  ls
+  275  cd practice2/practice3/
+  276  l
+  277  ls
+  278  cd dir2/dir1/
+  279  ls
+  280  mv file5 file5.1
+  281  ls
+  282  mv file5.1 /root/practice/
+  283  ls
+  284  cd 
+  285  ls
+  286  cd practice/
+  287  ls
+  288  mv file5.1 /root/practice/practice1/practice2/practice3/dir1 
+  289  ls
+  290  mv file5.1 /root/practice/practice1/practice2/practice3/dir1 
+  291  ls
+  292  cd practice1/practice2/practice3/dir2/dir1/
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd ..
+  297  ls
+  298  touch file5.1
+  299  ls
+  300  mv file5.1 /root/practice/
+  301  ls
+  302  cd /root/practice/
+  303  ls
+  304  mv file5.1 /root/practice/practice1/practice2/practice3/dir1 
+  305  ls
+  306  clear
+  307  ls
+  308  pwd
+  309  ls
+  310  mv file5.1 practice1/practice2/practice3/dir2/dir1/
+  311  ls
+  312  cd practice1/practice2/practice3/dir2/dir1/
+  313  ls
+  314  clear
+  315  ls
+  316  mkdir empty1
+  317  ls
+  318  mv empty1 /root/practice/
+  319  ls
+  320  cd 
+  321  ls 
+  322  cd practice/
+  323  ls
+  324  cd  practice1/practice2/practice3/dir2/dir1/
+  325  ls
+  326  rm i file5.1 
+  327  ls
+  328  rm i file5.1 
+  329  ls
+  330  rm  file1 file2 file3 file4  
+  331  ls
+  332  rm i file1 file2 file3 file4  
+  333  ls
+  334  rm -ir file1 file2 file3 file4  
+  335  ls
+  336  rm -irf file1 file2 file3 file4  
+  337  ls
+  338  echo hello all > file{1,2,3}
+  339  ls
+  340  echo hello all >> file{1,2,3}
+  341  echo hello all >> file{1}
+  342  ls
+  343  cat file\{1\} 
+  344  ls
+  345  rm file\{1\} 
+  346  ls
+  347  rm -f file\{1\} 
+  348  ls
+  349  clear
+  350  ls
+  351  touch folder{1,2,3}
+  352  ls
+  353  mv folder1 folder2 folder3 /newfolder | mkdir newfolder
+  354  ls
+  355  mv folder1 folder2 folder3 newfolder1/ | mkdir newfolder1
+  356  ls
+  357  cd newfolder1/
+  358  ls
+  359  rm -f folder1 folder2 folder3
+  360  ls
+  361  cd
+  362  cd practice/practice1/practice2/practice3/dir2/dir1/newfolder
+  363  ls
+  364  clear
+  365  ls
+  366  pwd
+  367  touch file{1,2,3}
+  368  ls
+  369  mv file1 file2 file3 practice3/ | rm -f newfolder/ dir1/
+  370  mv file1 file2 file3 practice3 | rm -f newfolder/ dir1/
+  371  ls
+  372  mv file1 file2 file3 /root/practice/practice1/practice2/practice3/ | rm -f newfolder/ dir1/
+  373  ls
+  374  mv file1 file2 file3 /root/practice/practice1/practice2/practice3/ | rm -f newfolder
+  375  touch a{1,2,3} | mv a1 a2 a3 /root/practice/practice1/practice2/ | rm -f newfolder
+  376  ls
+  377  touch a{1,2,3} | mv a1 a2 a3 /root/practice/practice1/practice2/ | rm -f newfolder
+  378  ls
+  379   mv a1 a2 a3 /root/practice/practice1/practice2/ | rm -f newfolder
+  380  y
+  381  ls
+  382  cd 
+  383  ls
+  384  cd practice
+  385  ls
+  386  cd practice1/practice2/
+  387  l
+  388  ls
+  389  clear
+  390  ls
+  391  cd
+  392  ls
+  393  rm -f practice/
+  394  ls
+  395  rm -df practice/
+  396  rm -rdf practice/
+  397  ls
+  398  cd practice | mkdir -p dir1/dir2/dir3/ | touch file{1,2,3} > /root/practice
+  399  ls
+  400  s
+  401  ls
+  402  cd practice
+  403  ls
+  404  rm file1 ls
+  405  ls
+  406  rm -rf file2 file3 practice dir1/
+  407  ls
+  408  clear
+  409  ls
+  410  mkdir practice | touch file{1,2,3} > practice/
+  411  ls
+  412  cd practice/
+  413  ls
+  414   touch file{1,2,3} > practice
+  415  ls
+  416  mkdir dir{1,2,3}
+  417  ls
+  418  cd ..
+  419  ls
+  420  mkdir rmscript
+  421  ls
+  422  vi rmscript/
+  423  ls
+  424  vi rmscript/
+  425  vi rmspt
+  426  chmod rmspt
+  427  chmod 777 rmspt
+  428  ls
+  429  bash rmspt 
+  430  ls
+  431  touch file1
+  432  ls
+  433  bash rmspt 
+  434  ls
+  435  vi rmspt
+  436  bash rmspt 
+  437  ls
+  438  vi rmspt
+  439  bash rmspt 
+  440  ls
+  441  vi rmspt
+  442  bash rmspt 
+  443  ls
+  444  vi rmspt
+  445  bash rmspt 
+  446  ls
+  447  clear
+  448  ls
+  449  cd practice/dir
+  450  cd practice/
+  451  ls
+  452   ls
+  453  ls
+  454  clear
+  455  ls
+  456  cd 
+  457  ls
+  458  touch file1
+  459  ls
+  460  cat > file1
+  461  cat file1
+  462  echo Regards >> file1
+  463  ls
+  464  cat file1
+  465  echo Team Admin >> file1
+  466  ls
+  467  echo Team Admin >> file1
+  468  cat file1
+  469  clear
+  470  cat /var/spool/mail/root
+  471  clear
+  472  ls
+  473  ls -la file1
+  474  clear
+  475  sl
+  476  ls
+  477  clear
+  478  ls
+  479  echo file1
+  480  ls
+  481  clear
+  482  find / -name "file1"
+  483  pwd
+  484  ls
+  485  find / -name "rmspt"
+  486  tree
+  487  cd practice
+  488  ls
+  489  cd dir3
+  490  ls
+  491  mkdir -p fol1/fol2/fol3
+  492  ls
+  493  cd fol1/
+  494  cd fol2/fol3/
+  495  ls
+  496  touch jabjkb
+  497  ls
+  498  cd 
+  499  cd ..
+  500  ls
+  501  find / -name "jabjkb"
+  502  cd /root/practice/dir3/fol1/fol2/fol3/
+  503  ls
+  504  echo The error was generted due to "port issue" > jabjkb
+  505  ls
+  506  cat jabjkb
+  507  cd 
+  508  cd ..
+  509  ls
+  510  clear
+  511  ls
+  512  find / -name "jabjkb"
+  513  cat /root/practice/dir3/fol1/fol2/fol3/jabjkb
+  514  find / -name "os-release"
+  515  cat /etc/os-release
+  516  cat /usr/lib/os-release
+  517  cat /media/etc/os-release
+  518  clear
+  519  find / -name "os-release"
+  520  ls -la /etc/os-release
+  521  ls -la /usr/lib/os-release
+  522  locate os-release
+  523  find / -name "pass"
+  524  find / -name "passwd"
+  525  find / -name "passwd" > /root/outputfile
+  526  ls
+  527  cd root
+  528  ls
+  529  cat outputfile
+  530  cat /etc/passwd
+  531  id
+  532  clear
+  533  ls
+  534  history | less
+  535  clear
+  536  ls
+  537  history > hisdatafile
+  538  ls
+  539  ls -la hisdatafile
+  540  cat hisdatafile | less
+  541  clear
+  542  ls
+  543  bash rmspt
+  544  ls
+  545  clear
+  546  ls
+  547  cat outputfile
+  548  bash rmspt
+  549  ls
+  550  clear
+  551  ls
+  552  find / -type f
+  553  clear
+  554  find / -type f
+  555  clear
+  556  ls
+  557  find / -perm 777
+  558  clear
+  559  find / -size 1.5
+  560  find / -size 1G
+  561  clear
+  562  ls
+  563  find / -size +10M
+  564  clear
+  565  ls
+  566  du -sh *
+  567  du -s *
+  568  du -sh practice
+  569  du -T practice
+  570  du -T
+  571  df -T
+  572  df -Th
+  573  ls -la /dev/sda1
+  574  ls -la /dev/mapper/centos-root 
+  575  clear
+  576  ls
+  577  init 0
+  578  clear
+  579  ls
+  580  df -th
+  581  df -Th
+  582  du -sh
+  583  du -sh /
+  584  du -sh *
+  585  clear
+  586  ls
+  587  man find
+  588  find / -empty
+  589  cat /opt/xyz1.txt
+  590  exit
+  591  clear
+  592  ls
+  593  clear
+  594  ls
+  595  cat file1
+  596  ls -la file1
+  597  ls -la rmspt
+  598  cat rmspt
+  599  bash rmspt
+  600  ls
+  601  bash rmspt
+  602  ls
+  603  clear
+  604  ls
+  605  vi rmspt
+  606  clear
+  607  ls
+  608  exit
+  609  init 
+  610  init 0
+  611  cleaar
+  612  clear
+  613  ls
+  614  runtime
+  615  time
+  616  Runtime
+  617  Runtime.exec() 1
+  618  clear
+  619  ls
+  620  cd practice
+  621  ls
+  622  tree
+  623  find fol3
+  624  find / -name fol3
+  625  update db
+  626  init 0
+  627  clear
+  628  ls
+  629  cd git-lo_re
+  630  ls
+  631  ls -la
+  632  cd .git
+  633  ls
+  634  cat HEAD
+  635  ls
+  636  cd ..
+  637  ls
+  638  clear
+  639  ls
+  640  git config --global user.name "Amand66"
+  641  ls
+  642  git config --global user.email "ardandale66@gmail.com"
+  643  git in
+  644  git --help
+  645          
+  646  clear
+  647  ls
+  648  mkdir bhui
+  649  cd bhui
+  650  ls
+  651  git clone https://github.com/maninderbhui/newdevops.git
+  652  ls
+  653  ls -la
+  654  cd newdevops
+  655  ls
+  656  cat file1.txt
+  657  ls -la
+  658  cat mycodeforList.php
+  659  cat xyz1.txt
+  660  cat xyz2.txt
+  661  ls
+  662  cat xyz2.txt
+  663  cat README.md
+  664  cd ..
+  665  ls
+  666  ls -hla newdevops/
+  667  ls -la newdevops/
+  668  ls -la -h newdevops/
+  669  ls -la -h file1.txt
+  670  ls -lah  file1.txt
+  671  ls
+  672  cd newdevops
+  673  ls
+  674  ls -lah ls file1.txt
+  675  clear
+  676  ls
+  677  git clone https://github.com/Amand66/centralgit.git
+  678  ls
+  679  cd centralgit
+  680  ls
+  681  cat branch1file
+  682  cat filem
+  683  cat filez
+  684  cat index.html
+  685  cat mumbai1
+  686  cat secondfile
+  687  git branch
+  688  clear
+  689  ls
+  690  clear
+  691  ls
+  692  yum update -y
+  693  yum upgrade -y
+  694  yum update -y
+  695  yum upgrade -y
+  696  clear
+  697  ls
+  698  cd git-lo_re/
+  699  ls
+  700  cd bhui/
+  701  ls
+  702  cd newdevops/
+  703  ls
+  704  cd centralgit/
+  705  ls
+  706  tree
+  707  cd /
+  708  ls
+  709  cd /root
+  710  ls
+  711  clear
+  712  ls
+  713  cd git-lo_re/
+  714  ls
+  715  tree
+  716  branch
+  717  git branch
+  718  ls
+  719  cd ..
+  720  ls
+  721  cp rmspt git-lo_re/
+  722  cd git-lo_re/
+  723  ls
+  724  bash rmspt
+  725  ls
+  726  bash rmspt
+  727  ls
+  728  bash rmspt
+  729  ls
+  730  cd ..
+  731  ls
+  732  clear
+  733  ls
+  734  cd git-lo_re/
+  735  ls
+  736  ls -la
+  737  git branch
+  738  git config --global user.name "Amand66"
+  739  git config --global user.email "amandandale66@gmail.com"
+  740  git branch
+  741  ls -la
+  742  git branch
+  743  git branchs
+  744  git branch
+  745  clear
+  746  ls
+  747  ls -la
+  748  git init
+  749  ls -la
+  750  git branch
+  751  git in
+  752  git init
+  753  ls -la
+  754  clear
+  755  git branch
+  756  git --version
+  757  yum install git
+  758  clear
+  759  ls
+  760  git --version
+  761  rpm -qa | grep git
+  762  pwd
+  763  git init
+  764  ls -la
+  765  git config --global user.name "Amand66"
+  766  git config --global user.email "ardandale66@gmail.com"
+  767  git init
+  768  pwd
+  769  git branch
+  770  ls
+  771  clear
+  772  ls
+  773  clear
+  774  ls
+  775  git branch
+  776  pwd
+  777  ls -la
+  778  git config --global user.name "Amand66"
+  779  git config --global user.email "ardandale66@gmail.com"
+  780  git branch
+  781  git init
+  782  git branch
+  783  touch file{1,2,3}
+  784  ls
+  785  init 0
+  786  ifconfig
+  787  ls
+  788  git branch
+  789  cd git-lo_re/
+  790  ls
+  791  git branch
+  792  ifconfig
+  793  init 0
+  794  clear
+  795  ls
+  796  cd git-lo_re/
+  797  ls
+  798  git branch
+  799  git init
+  800  git branch
+  801  ssh -keygen -t rsa
+  802  ssh -key gen -t rsa
+  803  ssh-keygen -t rsa
+  804  cat /root/.ssh/id_rsa
+  805  cat ~/.ssh/id_rsa
+  806  clear
+  807  ssh-keygen -t rsa
+  808  cat ~/.ssh/id_rsa
+  809  clear
+  810  ls
+  811  ssh -T git@github.com
+  812  git config --global user.name "Amand66"
+  813  git config --global user.email "ardandale66@gmail.com"
+  814  ssh-keygen -t rsa
+  815  cat ~/.ssh/id_rsa
+  816  clear
+  817  ssh-keygen
+  818  cat ~/.ssh/id_rsa
+  819  ssh-keygen -t ed25519
+  820  cat ~/.ssh/id_rsa
+  821  clear
+  822  ls
+  823  git clone https://github.com/Amand66/Git-repo.git
+  824  ls
+  825  cd Git-repo/
+  826  ls
+  827  cat README.md 
+  828  ifconfig
+  829  init 0
+  830  clear
+  831  ls
+  832  clear
+  833  l
+  834  ls
+  835  cd git-lo_re/
+  836  ls
+  837  ls -la
+  838  git init
+  839  git config --global user.name [root@server1 git-lo_re]# ls -la
+  840  clear
+  841  git config --global user.name "Amand66"
+  842  git config --global user.email "amandandale66@gmail.com"
+  843  git branch
+  844  yun uninstall git
+  845  yum uninstall git
+  846  git status
+  847  git branch
+  848  git status
+  849  clear
+  850  ls
+  851  cd ..
+  852  ls
+  853  cp rmspt ~/git-lo_re/
+  854  ls
+  855  cd git-lo_re/
+  856  ls
+  857  git branch
+  858  git status
+  859  echo "This is first file" > file1
+  860  cat file1
+  861  ls
+  862  echo "This is second file" > file2
+  863  cat file2
+  864  echo "This is third file" > file3
+  865  cat file
+  866  cat file3
+  867  ls
+  868  clear
+  869  ls
+  870  ll
+  871  ls
+  872  ls -l
+  873  ls -la
+  874  clear
+  875  ls
+  876  git branch
+  877  git status
+  878  cd Git-repo/
+  879  LS
+  880  ls
+  881  clear
+  882  ls
+  883  cd ..
+  884  ls
+  885  git status
+  886  git add Git-repo/
+  887  git status
+  888  git rm --cached Git-repo/
+  889  git rm -r --cached Git-repo/
+  890  ls
+  891  git status
+  892  clear
+  893  ls
+  894  git status
+  895  git add Git-repo/
+  896  ls
+  897  git status
+  898  git rm -r --cached Git-repo/
+  899  clera
+  900  clear
+  901  ls
+  902  git status
+  903  git add .
+  904  ls
+  905  git status
+  906  git rm -r --cached Git-repo/ file1 file2 file3 rmspt
+  907  git status
+  908  git rm -rf --cached Git-repo/ file1 file2 file3 rmspt
+  909  git status
+  910  ls
+  911  cat .hidden
+  912  ls
+  913  ls -la
+  914  git status
+  915  git add .
+  916  git status
+  917  git add .
+  918  git add -A
+  919  git status
+  920  git rm -rf --cached Git-repo/ file1 file2 file3 rmspt
+  921  git status
+  922  git rm -rf --cached Git-repo/ file1 file2 file3 rmspt .hidden
+  923  git status
+  924  git rm --cached .hidden
+  925  ls
+  926  git status
+  927  ifconfig
+  928  init 0
+  929  clear
+  930  ls
+  931  cd git-lo_re/
+  932  ls
+  933  git status
+  934  git add -A
+  935  git status
+  936  clear
+  937  ls
+  938  cat file1
+  939  cat file2
+  940  cat file3
+  941  git status
+  942  git rm -rf --cached Git-repo/ file1 file2 file3 rmspt .hidden
+  943  git status
+  944  git add .
+  945  git status
+  946  clear
+  947  ls
+  948  git status
+  949  git restore --staged file1
+  950  git status
+  951  git commit -m "My first comment on my first commit for this files"
+  952  git status
+  953  git branch
+  954  git push main
+  955  git push Git-repo
+  956  git config --global push.default matching
+  957  git config --global push.default simple
+  958  git push Git-repo
+  959  git push --set-upstream Git-repo master
+  960  git push Git-repo
+  961  git branch
+  962  git branch dev412
+  963  git branch
+  964  git push origin main
+  965  git push origin Git-repo/
+  966  git push origin Git-repo
+  967  git push Git-repo
+  968  ls
+  969  git status
+  970  git add file1
+  971  git status
+  972  clear
+  973  ls
+  974  git status
+  975  git add file1
+  976  git status
+  977  touch file12
+  978  git status
+  979  git add file12
+  980  ls
+  981  git status
+  982  git commit -m "This is my first commit"
+  983  git status
+  984  git push Git-repo/
+  985  git status
+  986  git push -u origin master
+  987  clear
+  988  git push Git-repo/
+  989  git branch
+  990  history
+  991  git config --global push.default matching
+  992  git push --set-upstream Git-repo master
+  993  clear
+  994  ls
+  995  git status
+  996  init 0
+  997  ifconfig
+  998  init 0
+  999  clear
+ 1000  ls
+ 1001  cd git-lo_re/
+ 1002  ls
+ 1003  ls -l
+ 1004  ls -a
+ 1005   git config --list
+ 1006  clear
+ 1007  ls
+ 1008  git init
+ 1009  git config --global user.name "Amand"
+ 1010  git config --global user.name "Amand66"
+ 1011  git config --global user.email "ardandale66@gmail.com"
+ 1012   git config --list
+ 1013  git status
+ 1014  git branch -M main
+ 1015  git status
+ 1016  git add .
+ 1017  git commit -m "This is commit from local machine"
+ 1018  git push -u origin main
+ 1019  git pull --rebase origin
+ 1020  git remote add origin https://github.com/Amand66/Git-repo.git
+ 1021  git pull --rebase origin
+ 1022  git push -u origin main
+ 1023  git pull --rebase origin
+ 1024  git remote add origin https://github.com/Amand66/Git-repo.git
+ 1025  git pull --rebase origin
+ 1026  git push -u origin main
+ 1027  git pull --rebase origin
+ 1028  git push -u origin main
+ 1029  git fetch
+ 1030  git push -u origin main
+ 1031  git push
+ 1032  git push origin main
+ 1033  git merge origin Git-repo
+ 1034  git pull origin Git-repo
+ 1035  ls
+ 1036  cd Git-repo/
+ 1037  ls
+ 1038  pwd
+ 1039  cd ..
+ 1040  cp rmspt /root/git-lo_re/Git-repo
+ 1041  cd Git-repo/
+ 1042  ls
+ 1043  git init
+ 1044  git add .
+ 1045  git status
+ 1046  git commit -m "This is commit from local machine"
+ 1047  git pull --rebase origin
+ 1048  git push -u origin main
+ 1049  git push origin main
+ 1050  ls
+ 1051  git status
+ 1052  history > localmchistoty
