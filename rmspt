@@ -1,0 +1,28 @@
+#!/bin/bash
+
+clear
+ls
+echo
+echo "Do you want to create new files?"
+echo
+read a
+echo "OK."
+touch file1
+echo
+ls
+echo "Which file do you want to detete?"
+
+echo
+
+read b
+
+echo
+
+echo "OK. $b File will successfully detete."
+
+echo
+
+rm -rfd $b
+
+echo "Thanks"
+
