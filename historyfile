@@ -1,0 +1,249 @@
+    1  clear
+    2  ls
+    3  ~
+    4  [wd
+    5  pwd
+    6  cd 
+    7  clear
+    8  pwd
+    9  mkdir gitrepo1
+   10  cd gitrepo1/
+   11  ls
+   12  ls -la
+   13  clear
+   14  git init
+   15  clear
+   16  ls -la
+   17  cd .git/
+   18  ls
+   19  ls -la
+   20  cd branches
+   21  ls
+   22  cd ..
+   23  cd ...
+   24  cd ..
+   25  ls
+   26  clear
+   27  ls
+   28  git branch
+   29  git config --global user.name 
+   30  git config --global user.name "Amand66"
+   31  git config --global user.email "amandandale99@gmail.com"
+   32  git branch
+   33  git status
+   34  touch file{1,2,3}
+   35  echo "This is first file" > file1 file2 file3
+   36  cat file1
+   37  cat file2
+   38  echo "This is first file" > file1
+   39  cat file1
+   40  echo "This is second file" > file2
+   41  echo "This is third file" > file3
+   42  ls
+   43  cat file1
+   44  cat file3
+   45  clear
+   46  ls
+   47  vi script.sh
+   48  chmod 777 script.sh 
+   49  ls -la
+   50  bash script.sh 
+   51  rpm -qa | grep git
+   52  vi script.sh
+   53  bash script.sh 
+   54  clear
+   55  ls
+   56  git add .
+   57  git status
+   58  git rm --cached file1 file2 file3 script.sh 
+   59  git status
+   60  touch .hidden
+   61  git add .
+   62  git status
+   63  git rm --cached file1 file2 file3 script.sh .hidden 
+   64  clear
+   65  ls
+   66  git status
+   67  git branch
+   68  git add -A
+   69  git status
+   70  clear
+   71  ls
+   72  git status
+   73  git rm --cached file1 file2 file3 script.sh .hidden 
+   74  clear
+   75  ls
+   76  git status
+   77  git add script.sh 
+   78  ls
+   79  git status 
+   80  git commit -m "This is first commit"
+   81  git status 
+   82  git push origin main
+   83  clear
+   84  ls
+   85  ls -la
+   86  ls -a
+   87  git status
+   88  git remote -v
+   89  git remote -v
+   90  git remote add origin git@github.com:Amand66/Git-repo.git
+   91  git remote -v
+   92  git branch
+   93  git branch -M main
+   94  git branch
+   95  git push -u origin main
+   96  ssh -keygen rsa
+   97  ssh -keygen -t rsa
+   98  ssh-keygen -t rsa
+   99  cat ~/.ssh/id_rsa
+  100  git push -u origin main
+  101  ssh-keygen -t ed25519 -C "ardandale66@gmail.com"
+  102  history
+  103  git config --global user.name "Amand66"
+  104  git config --global user.email "ardandale66@gmail.com"
+  105  git push -u origin main
+  106  git config --global user.email "ardandale66@gmail.com"
+  107  git init
+  108  ssh-keygen -t ed25519 -C "ardandale66@gmail.com"
+  109  cat ~/.ssh/id_ed25519
+  110  ssh-keygen -t rsa
+  111  cat ~/.ssh/id_ed25519
+  112  ~/.ssh/id_rsa.pub
+  113  cat ~/.ssh/id_rsa.pub
+  114  git push -u origin main
+  115  clear
+  116  ls
+  117  git stauts
+  118  git status
+  119  git add file1
+  120  git commit -m "This is second commit"
+  121  git push -u origin main
+  122  git pull git@github.com:Amand66/Git-repo.git
+  123  git config pull.rebase false  # merge
+  124  git pull git@github.com:Amand66/Git-repo.git
+  125  git config pull.ff only
+  126  git pull git@github.com:Amand66/Git-repo.git
+  127  git push
+  128  git push --set-upstream origin main
+  129  clear
+  130  ls
+  131  git status
+  132  git branch
+  133  ssh -T git@github.com
+  134  git init
+  135  git clone 
+  136  git clone git@github.com:Amand66/Git-repo.git
+  137  cat
+  138  clear
+  139  ls
+  140  cat Git-repo/
+  141  cd Git-repo/
+  142  ls -a
+  143  cat README.md 
+  144  git push
+  145  git push -u origin main
+  146  history
+  147  git remote add origin git@github.com:Amand66/Git-repo.git
+  148  git status
+  149  clear
+  150  ls -la
+  151  cd ..
+  152  git status
+  153  git add file2
+  154  git commit -m "This is first file committed"
+  155  git push -u origin main
+  156  git push --help
+  157  git push -u origin main
+  158  git push -f -u origin Git-repo
+  159  git push -f -u origin github.com:Amand66/Git-repo.git
+  160  clear
+  161  ls
+  162  clear
+  163  ~
+  164  cd ~
+  165  clear
+  166  ls
+  167  cd gitrepo1/
+  168  ls
+  169  ls -a
+  170  git config --list
+  171  clear
+  172  ls
+  173  git status
+  174  git log
+  175  clear
+  176  ls
+  177  cd Git-repo/
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd Git-repo/
+  182  pwd
+  183  ls
+  184  cd ..
+  185  ls
+  186  cp script.sh /root/gitrepo1/Git-repo
+  187  ls
+  188  cd Git-repo/
+  189  ls
+  190  clear
+  191  ls
+  192  git status
+  193  git add .
+  194  git status
+  195  git --version
+  196  git commit -m "This is simple script file"
+  197  git status
+  198  git branch
+  199  git push -u origin main
+  200  git push origin main
+  201  git remote -v
+  202  git fetch origin master
+  203  git fetch origin main
+  204  git push -u origin main
+  205  git pull --rebase origin
+  206  git push -u origin main
+  207  ls -la
+  208  touch file1
+  209  ls
+  210  git status
+  211  git add .
+  212  git commit -m "This is empty file"
+  213  git push
+  214  clear
+  215  cd ..
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd /root/
+  222  ls
+  223  cd gitrepo1/
+  224  ls
+  225  cd Git-repo/
+  226  ls
+  227  git clone https://github.com/maninderbhui/test1.git
+  228  ls -a
+  229  cd test1/
+  230  ls
+  231  ls -la
+  232  cat cfn-send-cmd-event 
+  233  ls
+  234  rm -fr README.md cfn-send-cmd-event 
+  235  ls
+  236  cat file1.txt 
+  237  cat mycode.php 
+  238  cat teabreak.txt 
+  239  cd 
+  240  ls
+  241  cd gitrepo1/
+  242  ls
+  243  cg Git-repo/
+  244  ls
+  245  cd Git-repo/
+  246  ls
+  247  rm -fr test1/
+  248  ls
+  249  history > historyfile
